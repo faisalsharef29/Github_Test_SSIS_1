@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-UDH0M0G5</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArYxTmY4BuEeCK519iubcPgAAAAACAAAAAAAQZgAAAAEAACAAAAD7shE1j9OM6FeqoTEkiaguZKcmbize+UFFxxhXrmAqagAAAAAOgAAAAAIAACAAAAB2xGWu7n1Lz0oI2zlwO/4Zpz7XZAlz3FpfBC11S9S3j5AAAAA6GWY80PQC59UldJR9YUFCJ0NcAkU1DLu/EvVIqy12MM2zdp5YgDOXaIwuzfzvJ59Tpf8zBxUV+NzdTVW+XVTfkpV17FaI9yVIc8aMkOzEqPeDfl5i/MhysLk78WefJTynMpBOPu+oRy8Q+s4eon3gtA+5ks2KScjxtN9G+E9+RBSyaAUfxMNxb4LrLGoH+GFAAAAAWM+IqIIvL5P9MA5inn8r+fXRyAJPgb2umhGmaw3uj+MmoI9LJwYaNyGhk1LzEPRgT1PVCYogXplcx/Nc8Y+ALQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwO41qEX4PUeevQRG2ZnZdQAAAAACAAAAAAAQZgAAAAEAACAAAABOGaoTLFt1yIv4J2F1Hf00ZGW/LPglvpB0SFr0OuqpFgAAAAAOgAAAAAIAACAAAACaiafFxYrLbmnJwZmUTvB3VBOh5hQu4jfexx+p4RD3J5AAAADVq9wVkOhvfzC5l3+KTz/YV70GL0964r66WyADQJETXEJt1sgSKPCbIJ+guP4M0Iat9iSZEhLLWwTfd3NRqIpDJH6/iYsdfsADzMnXk5c33l/iH6DsMtK4m6XVQhhJxyuBFZQ6AF0sOjXO2DjDVzvtESgz60uAD464457csVt+VSbkg+E6ixWa8coYumeRJ9VAAAAAQMvjMX0o39bw8d6OIolSnUrbaX1xUTy2CfRwy4BrXHbrpWIcUGC43vxtMgLO02xNbLEK7FmvZkva+VlHa5s/2A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Update_Emails.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -38,14 +39,14 @@
           <SSIS:PackageInfo>
             <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{01903073-D415-4C7B-AC68-0C5FD82974B0}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{FDB98F04-D17F-4D8B-9FD2-F75107F83CF8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">UpdateTextScript</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">26</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">28</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C47A0CCD-C6BE-4FC8-ABB0-D4396A80CA92}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{10154351-9A18-4A75-84EA-0AAB1362AF8A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -750,6 +751,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Update_Emails.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{B35CCFF7-BEC3-4677-BB94-712975DEB240}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8011462D-8D09-43CF-944B-64B48598D20B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>

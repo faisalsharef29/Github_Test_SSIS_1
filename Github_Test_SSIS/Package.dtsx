@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LAPTOP-UDH0M0G5"
   DTS:CreatorName="LAPTOP-UDH0M0G5\Faisal"
-  DTS:DTSID="{01903073-D415-4C7B-AC68-0C5FD82974B0}"
+  DTS:DTSID="{FDB98F04-D17F-4D8B-9FD2-F75107F83CF8}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.157"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="UpdateTextScript"
   DTS:PackageType="5"
-  DTS:VersionBuild="27"
-  DTS:VersionGUID="{10D311A4-486A-4F63-A88C-E2822A3276E2}">
+  DTS:VersionBuild="28"
+  DTS:VersionGUID="{10154351-9A18-4A75-84EA-0AAB1362AF8A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2342,23 +2342,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Importing Excel Data Using the OleDB Driver\ADO NET Destination 2">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Importing Excel Data Using the OleDB Driver\ADO NET Destination 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Importing Excel Data Using the OleDB Driver\OLE DB Destination 1">
+    design-time-name="Package\Importing Excel Data Using the OleDB Driver\OLE DB Destination 2">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2371,7 +2355,15 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Importing Excel Data Using the OleDB Driver\OLE DB Destination 2">
+    design-time-name="Package\Importing Excel Data Using the OleDB Driver\ADO NET Destination 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Importing Excel Data Using the OleDB Driver\OLE DB Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2393,6 +2385,14 @@
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Importing Excel Data Using the OleDB Driver\ADO NET Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
